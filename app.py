@@ -37,5 +37,7 @@ def parse_msg():
     finally:
         os.remove(tmp_path)
 
+# Force a new build on Zeabur
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=8000)
